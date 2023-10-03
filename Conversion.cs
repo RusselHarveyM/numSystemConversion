@@ -84,16 +84,56 @@ namespace numberSystemConversion
 
         }
         public void toOctal(string number, string from) {
+            int convertnumber;
+            string octalNumber;
+
             switch (from)
             {
                 case "1":
+                    convertnumber = Convert.ToInt32(number, 2);
+                    if (convertnumber == 0)
+                    {
+                        Console.Write("Octal of the given number= " + convertnumber);
+                        return;
+                    }
 
+                    octalNumber = "";
+                    while (convertnumber > 0)
+                    {
+                        int remainder = convertnumber % 8;
+                        octalNumber = remainder.ToString() + octalNumber;
+                        convertnumber /= 8;
+                    }
+                    Console.Write("Octal of the given number= " + octalNumber);
+                    //decimal
                     break;
                 case "2":
+                    convertnumber = Convert.ToInt32(number, 2);
+                    Console.WriteLine("Octal of the given number= " + Convert.ToString(convertnumber, 8)); // prints "23"
+                    //binary
                     break;
                 case "3":
+                    //octal
+                    Console.Write("Octal of the given number= " + number);
                     break;
                 case "4":
+                    //hexa
+                    int decimalNumber = Convert.ToInt32(number, 16);
+
+                    if (decimalNumber == 0)
+                    {
+                        Console.Write("Octal of the given number= " + number);
+                        return;
+                    }
+
+                    octalNumber = "";
+                    while (decimalNumber > 0)
+                    {
+                        int remainder = decimalNumber % 8;
+                        octalNumber = remainder.ToString() + octalNumber;
+                        decimalNumber /= 8;
+                    }
+                    Console.Write("Octal of the given number= " + octalNumber);
                     break;
             }
         }
@@ -102,28 +142,45 @@ namespace numberSystemConversion
             switch (from)
             {
                 case "1":
-
+                    int decimalNumber = int.Parse(number);
+                    string hexaNumber = decimalNumber.ToString("X");
+                    Console.Write("Hexadecimal of the given number= " + hexaNumber);
                     break;
                 case "2":
+                    int binaryNumber = Convert.ToInt32(number, 2);
+                    string hexaNumberFromBinary = binaryNumber.ToString("X");
+                    Console.Write("Hexadecimal of the given number= " + hexaNumberFromBinary);
                     break;
                 case "3":
+                    int octalToDecimal = Convert.ToInt32(number, 8);
+                    string hexaNumberFromOctal = octalToDecimal.ToString("X");
+                    Console.Write("Hexadecimal of the given number= " + hexaNumberFromOctal);
                     break;
                 case "4":
+                    Console.Write("Hexadecimal of the given number= " + number);
                     break;
             }
         }
+
         public void toDecimal(string number, string from)
         {
             switch (from)
             {
                 case "1":
-
+                    int decimalNumber = int.Parse(number);
+                    Console.Write("Decimal of the given number= " + decimalNumber);
                     break;
                 case "2":
+                    int binaryNumber = Convert.ToInt32(number, 2);
+                    Console.Write("Decimal of the given number= " + binaryNumber);
                     break;
                 case "3":
+                    int octalNumber = Convert.ToInt32(number, 8);
+                    Console.Write("Decimal of the given number= " + octalNumber);
                     break;
                 case "4":
+                    int hexaNumber = Convert.ToInt32(number, 16);
+                    Console.Write("Decimal of the given number= " + hexaNumber);
                     break;
             }
         }

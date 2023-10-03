@@ -73,6 +73,12 @@ namespace numberSystemConversion
                     System.Console.WriteLine("Binary value is: " + binary);
                     break;
                 case "4":
+                    string binarystring = String.Join(String.Empty,
+                      number.Select(
+                        c => Convert.ToString(Convert.ToInt32(c.ToString(), 16), 2).PadLeft(4, '0')
+                      )
+                    );
+                    System.Console.WriteLine("Binary value is: " + binarystring);
                     break;
             }
 

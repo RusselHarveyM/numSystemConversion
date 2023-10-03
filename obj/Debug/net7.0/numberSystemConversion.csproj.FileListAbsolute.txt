@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\numberSystemConversion\bin\Debug\net7.0\numberSystemConversion.exe
+C:\Users\Lenovo\source\repos\numberSystemConversion\bin\Debug\net7.0\numberSystemConversion.deps.json
+C:\Users\Lenovo\source\repos\numberSystemConversion\bin\Debug\net7.0\numberSystemConversion.runtimeconfig.json
+C:\Users\Lenovo\source\repos\numberSystemConversion\bin\Debug\net7.0\numberSystemConversion.dll
+C:\Users\Lenovo\source\repos\numberSystemConversion\bin\Debug\net7.0\numberSystemConversion.pdb
+C:\Users\Lenovo\source\repos\numberSystemConversion\obj\Debug\net7.0\numberSystemConversion.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\numberSystemConversion\obj\Debug\net7.0\numberSystemConversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\numberSystemConversion\obj\Debug\net7.0\numberSystemConversion.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\numberSystemConversion\obj\Debug\net7.0\numberSystemConversion.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\numberSystemConversion\obj\Debug\net7.0\numberSystemConversion.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\numberSystemConversion\obj\Debug\net7.0\numberSystemConversion.dll
+C:\Users\Lenovo\source\repos\numberSystemConversion\obj\Debug\net7.0\refint\numberSystemConversion.dll
+C:\Users\Lenovo\source\repos\numberSystemConversion\obj\Debug\net7.0\numberSystemConversion.pdb
+C:\Users\Lenovo\source\repos\numberSystemConversion\obj\Debug\net7.0\numberSystemConversion.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\numberSystemConversion\obj\Debug\net7.0\ref\numberSystemConversion.dll
